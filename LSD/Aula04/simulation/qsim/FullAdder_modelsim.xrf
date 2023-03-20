@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/LSD/Aula04/FullAdder.vhd
+source_file = 1, c:/lsd/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/lsd/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/lsd/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/lsd/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/LSD/Aula04/db/FullAdder.cbx.xml
+design_name = FullAdder
+instance = comp, \s~output\, s~output, FullAdder, 1
+instance = comp, \cout~output\, cout~output, FullAdder, 1
+instance = comp, \a~input\, a~input, FullAdder, 1
+instance = comp, \b~input\, b~input, FullAdder, 1
+instance = comp, \cin~input\, cin~input, FullAdder, 1
+instance = comp, \s~0\, s~0, FullAdder, 1
+instance = comp, \cout~0\, cout~0, FullAdder, 1
